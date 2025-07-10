@@ -19,10 +19,13 @@ function App() {
                     <h1>Welcome to C.R.A.B.S Rugby</h1>
                     <p className="subtitle">Home of Butte C.R.A.B.S rugby football club</p>
                   </section>
+                  <div className="mobile-events">
+                    <UpcomingEvents />
+                  </div>
                   <section className="about-section">
                     <h2>About Us</h2>
                     <p className="about-text">
-                      The Butte C.R.A.B.S were founded in 1977 by Tech students and are a member of the Montana Rugby Union which has clubs spread across Montana, Idaho and Washington. The Crabs practice and play their home games on a <a href="https://maps.app.goo.gl/aCk19QobTHEZLdHX6" target="_blank" rel="noopener noreferrer">field</a> located south of the Montana Tech HPER Complex.
+                      The Butte C.R.A.B.S were founded in 1977 by Tech students and are a member of the Montana Rugby Union which has clubs spread across Montana, Idaho and Washington. The Crabs practice and play their home games on the <a href="https://maps.app.goo.gl/aCk19QobTHEZLdHX6" target="_blank" rel="noopener noreferrer">field</a> located south of the Montana Tech HPER Complex.
                     </p>
                   </section>
                   <Sponsors />

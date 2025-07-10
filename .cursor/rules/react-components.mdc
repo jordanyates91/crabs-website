@@ -19,6 +19,9 @@ alwaysApply: false
    - Use named exports for components
    - Export components as default only if they are the main component in the file
 
+4. Importing Components:
+   - When importing into a file, always verify that the component you are importing exists at the location you are attempting to import from. 
+
 Example component structure:
 ```jsx
 import './ComponentName.css';

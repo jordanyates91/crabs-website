@@ -69,11 +69,10 @@
 .event-title {
   font-size: 1.5rem;
   margin: 0;
-  color: #2c3e50;
 }
 
 .event-type {
-  background-color: #3498db;
+  background-color: #006400;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -81,11 +80,11 @@
 }
 
 .event-type:contains("Away Game") {
-  background-color: #e74c3c;
+  background-color: #006400;
 }
 
 .event-type:contains("Training") {
-  background-color: #27ae60;
+  background-color: #006400;
 }
 
 .event-details {
