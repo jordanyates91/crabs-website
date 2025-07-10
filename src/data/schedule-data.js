@@ -11,7 +11,7 @@ export const events = [
   {
     id: 2,
     title: "C.R.A.B.S vs Maggots",
-    date: "2024-04-05",
+    date: "2025-07-05",
     time: "15:30",
     location: "South HPER Field",
     type: "Home Game",
