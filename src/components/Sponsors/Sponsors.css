@@ -29,7 +29,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.7rem;
+  justify-content: space-between;
+  min-height: 200px; /* Ensure consistent height for all tiles */
 }
 
 .sponsor-tile:hover {
@@ -41,6 +42,7 @@
   max-width: 140px;
   height: auto;
   object-fit: contain;
+  margin-top: 0.5rem;
 }
 
 .sponsor-name {
@@ -48,4 +50,8 @@
   font-size: 1rem;
   margin: 0;
   font-weight: 500;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.5rem;
+  border-top: 1px solid #eee;
 } 
