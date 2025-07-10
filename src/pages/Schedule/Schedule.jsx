@@ -1,4 +1,4 @@
-import { events } from './schedule-data';
+import { events } from '../../data/schedule-data';
 import './Schedule.css';
 
 const Schedule = () => {
