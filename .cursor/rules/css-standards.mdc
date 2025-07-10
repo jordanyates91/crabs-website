@@ -1,0 +1,42 @@
+---
+description: Any time you're working with front end that requires styling you should use these standards
+alwaysApply: false
+---
+# CSS Styling Standards
+
+1. Naming Conventions:
+   - Use kebab-case for class names (e.g., `header-navigation`)
+   - Component-specific classes should start with the component name (e.g., `header-logo`)
+   - Use semantic class names that describe purpose, not appearance
+
+2. Organization:
+   - Group related styles together with comments
+   - Order properties consistently (layout → box model → typography → visual)
+   - Use CSS variables for colors, spacing, and other repeated values
+
+3. Best Practices:
+   - Avoid using IDs for styling
+   - Minimize nesting to reduce specificity issues
+   - Use flexbox and grid for layouts
+   - Keep selectors as simple as possible
+
+Example CSS structure:
+```css
+.component-name {
+  /* Layout */
+  display: flex;
+  justify-content: space-between;
+  
+  /* Box Model */
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+  
+  /* Typography */
+  font-family: var(--font-primary);
+  font-size: var(--text-md);
+  
+  /* Visual */
+  background-color: var(--color-background);
+  border-radius: var(--border-radius-md);
+}
+```

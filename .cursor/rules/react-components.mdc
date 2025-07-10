@@ -1,0 +1,34 @@
+---
+title: React Component Standards
+---
+
+# React Component Standards
+
+1. Component Organization:
+   - Each component should be in its own file
+   - Use PascalCase for component names (e.g., `Header.jsx`)
+   - Co-locate component styles in a matching `.css` file (e.g., `Header.css`)
+
+2. Component Structure:
+   - Use functional components with hooks
+   - Props should be destructured in the function parameters
+   - Keep components focused and single-purpose
+   - Extract reusable logic into custom hooks
+
+3. Component Exports:
+   - Use named exports for components
+   - Export components as default only if they are the main component in the file
+
+Example component structure:
+```jsx
+import './ComponentName.css';
+
+export function ComponentName({ prop1, prop2 }) {
+  // Component logic here
+  return (
+    <div className="component-name">
+      {/* JSX content */}
+    </div>
+  );
+}
+```
