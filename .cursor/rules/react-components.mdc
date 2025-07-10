@@ -1,7 +1,7 @@
 ---
-title: React Component Standards
+description: Use this rule when creating react components
+alwaysApply: false
 ---
-
 # React Component Standards
 
 1. Component Organization:

@@ -1,5 +1,5 @@
 ---
-description:
-globs:
-alwaysApply: false
+alwaysApply: true
 ---
+1. Do not make assumptions around content to display in the UI. Instead ask the user for clarification.
+2. Use MVC when creating websites.
