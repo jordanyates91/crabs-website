@@ -1,0 +1,106 @@
+.contact-page {
+  min-height: calc(100vh - 200px); /* Reduced from 100vh to account for header/footer */
+  background-color: white;
+  padding: 2rem;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  color: #006400;
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info {
+  display: grid;
+  gap: 2rem;
+  margin-top: 1.5rem; /* Reduced from 2rem */
+}
+
+.contact-item h3 {
+  color: #006400;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.contact-item a {
+  color: #34495e;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.2s ease;
+}
+
+.contact-item a:hover {
+  color: #006400;
+}
+
+.practice-info {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 2rem;
+  border-left: 4px solid #006400;
+}
+
+.practice-info h2 {
+  color: #006400;
+  margin-bottom: 1rem;
+}
+
+.practice-info p {
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.map-link {
+  display: inline-flex;
+  align-items: center;
+  color: #006400;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.map-link:hover {
+  color: #004d00;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  transition: background-color 0.2s ease;
+}
+
+.social-link:hover {
+  background-color: #e8e8e8;
+}
+
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 1rem;
+  }
+  
+  .contact-section {
+    padding: 1.5rem;
+  }
+} 

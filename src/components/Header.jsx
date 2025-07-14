@@ -23,18 +23,16 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo-container">
-        <Link to="/">
+        <Link to="/" className="logo-link">
           <img src={crabsLogo} alt="C.R.A.B.S Rugby Team Logo" className="logo" />
+          <span className="team-name">Butte C.R.A.B.S</span>
         </Link>
       </div>
       <nav className="nav">
         <Link to="/" className="nav-link">Home</Link>
         <Link to="/schedule" className="nav-link">Schedule</Link>
         <Link to="/sponsors" className="nav-link">Sponsors</Link>
-        <a href="https://www.facebook.com/ButteCRABSRugby" 
-           className="nav-link" 
-           target="_blank" 
-           rel="noopener noreferrer">Facebook<ExternalLinkIcon /></a>
+        <Link to="/contact" className="nav-link">Contact</Link>
         <a href="https://stores.inksoft.com/CrabShackOrganization/shop/home" 
            className="nav-link" 
            target="_blank"

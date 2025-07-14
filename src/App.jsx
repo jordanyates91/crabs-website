@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer/Footer';
 import Schedule from './pages/Schedule/Schedule';
 import SponsorsPage from './pages/Sponsors/Sponsors';
+import Contact from './pages/Contact/Contact';
 import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
 import teamPhoto from '../assets/team-photo.jpg';
 import './App.css';
@@ -24,7 +25,7 @@ function App() {
                   <section className="about-section">
                     <h2>About Us</h2>
                     <p className="about-text">
-                      The Butte C.R.A.B.S. were founded in 1977 by Tech students and are a member of the Montana Rugby Union which has clubs spread across Montana, Idaho and Washington. The Crabs practice and play their home games on the <a href="https://maps.app.goo.gl/aCk19QobTHEZLdHX6" target="_blank" rel="noopener noreferrer">field</a> located south of the Montana Tech HPER Complex.
+                      The Butte C.R.A.B.S. were founded in 1977 by Tech students and are a member of the Montana Rugby Union which has clubs spread across Montana, Idaho and Washington. The C.R.A.B.S. practice and play their home games on the <a href="https://maps.app.goo.gl/aCk19QobTHEZLdHX6" target="_blank" rel="noopener noreferrer">field</a> located south of the Montana Tech HPER Complex.
                     </p>
                     <img 
                       src={teamPhoto} 
@@ -44,6 +45,7 @@ function App() {
           } />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/sponsors" element={<SponsorsPage />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

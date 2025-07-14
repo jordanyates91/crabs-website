@@ -20,10 +20,24 @@
   height: 100%;
 }
 
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 1rem;
+}
+
 .logo {
   height: 70px; /* Increased logo size */
   width: auto;
   object-fit: contain;
+}
+
+.team-name {
+  color: #006400;
+  font-size: 1.5rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .nav {
@@ -44,4 +58,20 @@
 .nav-link:hover {
   background-color: #006400;
   color: white;
+}
+
+/* Add responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .team-name {
+    font-size: 1.2rem;
+  }
+  
+  .nav {
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
 } 
