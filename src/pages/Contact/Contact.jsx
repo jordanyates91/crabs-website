@@ -24,7 +24,6 @@ const Contact = () => {
         <div className="contact-container">
           <h1>Contact Us</h1>
           <section className="contact-section">
-            <h2>Get in Touch</h2>
             <p>
               We'd love to hear from you! Whether you're interested in joining the team, 
               want to learn more about rugby, or have any questions, feel free to reach out.
