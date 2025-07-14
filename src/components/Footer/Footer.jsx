@@ -30,7 +30,7 @@ const Footer = () => {
           <p>Founded in 1977</p>
         </div>
         <div className="footer-sponsors-section">
-          <p className="footer-sponsors-title">Thanks to our Sponsors</p>
+          <p className="footer-sponsors-title">Thank you to our Sponsors</p>
           <div className="footer-sponsors">
             {sponsors.map(sponsor => (
               <div key={sponsor.id} className="footer-sponsor">

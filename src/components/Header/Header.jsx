@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import crabsLogo from '../../assets/crabs_logo.png';
+import crabsLogo from '../../../assets/crabs_logo.png';
 import './Header.css';
 
 const ExternalLinkIcon = () => (
@@ -32,7 +32,7 @@ const Header = () => {
         <Link to="/" className="nav-link">Home</Link>
         <Link to="/schedule" className="nav-link">Schedule</Link>
         <Link to="/sponsors" className="nav-link">Sponsors</Link>
-        <Link to="/contact" className="nav-link">Contact</Link>
+        <Link to="/contact" className="nav-link">Contact Us</Link>
         <a href="https://stores.inksoft.com/CrabShackOrganization/shop/home" 
            className="nav-link" 
            target="_blank"

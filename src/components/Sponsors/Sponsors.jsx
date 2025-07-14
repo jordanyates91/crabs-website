@@ -22,7 +22,6 @@ const InstagramIcon = () => (
 const Sponsors = () => {
   return (
     <section className="sponsors-section">
-      <h2>Our Sponsors</h2>
       <div className="sponsors-grid">
         {sponsors.map(sponsor => (
           <div key={sponsor.id} className="sponsor-tile">

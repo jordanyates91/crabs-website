@@ -1,5 +1,5 @@
 .contact-page {
-  min-height: calc(100vh - 200px); /* Reduced from 100vh to account for header/footer */
+  min-height: calc(100vh - 200px);
   background-color: white;
   padding: 2rem;
 }
@@ -7,6 +7,11 @@
 .contact-container {
   max-width: 800px;
   margin: 0 auto;
+}
+
+.contact-container h1 {
+  color: #006400;
+  margin-bottom: 1.5rem;
 }
 
 .contact-section {
@@ -30,7 +35,7 @@
 .contact-info {
   display: grid;
   gap: 2rem;
-  margin-top: 1.5rem; /* Reduced from 2rem */
+  margin-top: 1.5rem;
 }
 
 .contact-item h3 {
@@ -49,37 +54,6 @@
 
 .contact-item a:hover {
   color: #006400;
-}
-
-.practice-info {
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  padding: 2rem;
-  border-left: 4px solid #006400;
-}
-
-.practice-info h2 {
-  color: #006400;
-  margin-bottom: 1rem;
-}
-
-.practice-info p {
-  color: #34495e;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-}
-
-.map-link {
-  display: inline-flex;
-  align-items: center;
-  color: #006400;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-.map-link:hover {
-  color: #004d00;
 }
 
 .social-link {
