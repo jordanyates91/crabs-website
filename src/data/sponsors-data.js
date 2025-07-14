@@ -7,7 +7,6 @@ export const sponsors = [
     facebook: "https://www.facebook.com/stella.s.vu.villa/",
     instagram: "https://www.instagram.com/stellas.vuvilla/"
   },
-
   {
     id: 2,
     name: "Summit Beverage",

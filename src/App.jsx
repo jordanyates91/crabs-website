@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
+import Footer from './components/Footer/Footer';
 import Schedule from './pages/Schedule/Schedule';
 import SponsorsPage from './pages/Sponsors/Sponsors';
 import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
@@ -38,6 +39,7 @@ function App() {
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/sponsors" element={<SponsorsPage />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
