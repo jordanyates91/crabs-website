@@ -66,4 +66,50 @@
   text-align: center;
   padding: 1rem;
   font-style: italic;
+}
+
+/* Compact styles for home page */
+.side-column .upcoming-events,
+.mobile-events .upcoming-events {
+  padding: 1rem;
+}
+
+.side-column .upcoming-events h2,
+.mobile-events .upcoming-events h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.side-column .event-item,
+.mobile-events .event-item {
+  padding: 1rem;
+}
+
+.side-column .event-details .event-title,
+.mobile-events .event-details .event-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.side-column .event-info p,
+.mobile-events .event-info p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.side-column .event-info strong,
+.mobile-events .event-info strong {
+  font-size: 0.95rem;
+}
+
+/* Adjust spacing for the first and last items in compact view */
+.side-column .event-info p:first-child,
+.mobile-events .event-info p:first-child {
+  margin-top: 0;
+}
+
+.side-column .event-info p:last-child,
+.mobile-events .event-info p:last-child {
+  margin-bottom: 0;
 } 
