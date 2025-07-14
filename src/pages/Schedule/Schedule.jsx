@@ -27,7 +27,7 @@ const Schedule = () => {
                     Map
                   </a>)
                 </p>
-                <p className="practice-note">
+                <p>
                 ✅ No experience needed—we’ll teach you everything!<br/>
                 ✅ Open to everyone age 18+—all fitness levels welcome!<br/>
                 ✅ Fun, friendly, and a great workout—meet new people and learn a new sport!<br/>
@@ -47,15 +47,16 @@ const Schedule = () => {
                   <span className="event-type">{event.type}</span>
                 </div>
                 <div className="event-details">
-                  <p className="event-datetime">
+                  <p>
                     <strong>Date:</strong> {new Date(event.date).toLocaleDateString()}
-                    <br />
+                  </p>
+                  <p>
                     <strong>Time:</strong> {event.time}
                   </p>
-                  <p className="event-location">
+                  <p>
                     <strong>Location:</strong> {event.location}
                   </p>
-                  <p className="event-description">{event.description}</p>
+                  <p>{event.description}</p>
                 </div>
               </div>
             ))}

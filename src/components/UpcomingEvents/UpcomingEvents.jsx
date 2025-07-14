@@ -22,15 +22,26 @@ const UpcomingEvents = () => {
         {upcomingEvents.length > 0 ? (
           upcomingEvents.map(event => (
             <div key={event.id} className="event-item">
-              <div className="event-datetime">
-                {new Date(event.date).toLocaleDateString('en-US', {
-                  month: 'short',
-                  day: 'numeric'
-                })} @ {event.time}
-              </div>
-              <div className="event-title">{event.title}</div>
-              <div className="event-info">
-                {event.type} @ {event.location}
+              <div className="event-details">
+                <h3 className="event-title">{event.title}</h3>
+                <div className="event-info">
+                  <p>
+                    <strong>Date:</strong> {new Date(event.date).toLocaleDateString('en-US', {
+                      weekday: 'long',
+                      month: 'long',
+                      day: 'numeric'
+                    })}
+                  </p>
+                  <p>
+                    <strong>Time:</strong> {event.time}
+                  </p>
+                  <p>
+                    <strong>Type:</strong> {event.type}
+                  </p>
+                  <p>
+                    <strong>Location:</strong> {event.location}
+                  </p>
+                </div>
               </div>
             </div>
           ))
