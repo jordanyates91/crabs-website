@@ -4,6 +4,45 @@
   padding: 2rem;
 }
 
+.practice-times {
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+}
+
+.practice-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.practice-details h2 {
+  color: #006400;
+  margin-bottom: 1.5rem;
+}
+
+.practice-info {
+  color: #34495e;
+}
+
+.practice-info p {
+  margin: 0.75rem 0;
+  line-height: 1.5;
+}
+
+.practice-note {
+  margin-top: 1.5rem !important;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  border-left: 4px solid #006400;
+}
+
+.events-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .schedule-container {
   margin-top: 2rem;
 }
