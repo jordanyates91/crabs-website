@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-column {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
   min-width: 0;
 }
 
@@ -63,13 +63,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-section {
   text-align: center;
-  margin-bottom: 3rem;
-  padding: 2rem 0;
+  margin-bottom: 1.5rem;
+  padding: 1rem 0;
 }
 
 .hero-section h1 {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .subtitle {
@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #34495e;
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 2rem;
 }
 
 .about-text a {
@@ -106,6 +107,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-text a:hover {
   border-bottom-color: #3498db;
+}
+
+.team-photo {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
