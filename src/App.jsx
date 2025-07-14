@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Schedule from './pages/Schedule/Schedule';
-import Sponsors from './components/Sponsors/Sponsors';
+import SponsorsPage from './pages/Sponsors/Sponsors';
 import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
 import './App.css';
 
@@ -22,13 +22,12 @@ function App() {
                   <section className="about-section">
                     <h2>About Us</h2>
                     <p className="about-text">
-                      The Butte C.R.A.B.S were founded in 1977 by Tech students and are a member of the Montana Rugby Union which has clubs spread across Montana, Idaho and Washington. The Crabs practice and play their home games on the <a href="https://maps.app.goo.gl/aCk19QobTHEZLdHX6" target="_blank" rel="noopener noreferrer">field</a> located south of the Montana Tech HPER Complex.
+                      The Butte C.R.A.B.S. were founded in 1977 by Tech students and are a member of the Montana Rugby Union which has clubs spread across Montana, Idaho and Washington. The Crabs practice and play their home games on the <a href="https://maps.app.goo.gl/aCk19QobTHEZLdHX6" target="_blank" rel="noopener noreferrer">field</a> located south of the Montana Tech HPER Complex.
                     </p>
                   </section>
                   <div className="mobile-events">
                     <UpcomingEvents />
                   </div>
-                  <Sponsors />
                 </div>
                 <aside className="side-column">
                   <UpcomingEvents />
@@ -37,6 +36,7 @@ function App() {
             </main>
           } />
           <Route path="/schedule" element={<Schedule />} />
+          <Route path="/sponsors" element={<SponsorsPage />} />
         </Routes>
       </div>
     </Router>

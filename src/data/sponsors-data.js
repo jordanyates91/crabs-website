@@ -1,21 +1,20 @@
 export const sponsors = [
   {
     id: 1,
-    name: "Embroidery Plus",
-    logo: "/assets/embroideryplusbutte.JPG", // You can replace with actual sponsor logos
-    url: "https://www.companycasuals.com/embroideryplusbutte/start.jsp"
+    name: "Stella's Vu Villa",
+    logo: "/assets/vu-villa.jpg",
+    website: null,
+    facebook: "https://www.facebook.com/stella.s.vu.villa/",
+    instagram: "https://www.instagram.com/stellas.vuvilla/"
   },
+
   {
     id: 2,
-    name: "Park Street Liquors",
-    logo: "/assets/park-street-liquor.jpg", // You can replace with actual sponsor logos
-    url: "https://www.yelp.com/biz/park-street-liquors-butte"
-  },
-  {
-    id: 3,
     name: "Summit Beverage",
-    logo: "/assets/summit-beverage.avif", // You can replace with actual sponsor logos
-    url: "https://www.summitbeverage.com/"
+    logo: "/assets/summit-beverage.avif",
+    website: "https://www.summitbeverage.com/",
+    facebook: "https://www.facebook.com/pages/Summit-Beverage/122493127809467",
+    instagram: null
   },
   // Add more sponsors here as needed
 ]; 

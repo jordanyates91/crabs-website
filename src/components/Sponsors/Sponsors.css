@@ -1,57 +1,70 @@
 .sponsors-section {
-  background-color: #f8f9fa;
-  padding: 3rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
 }
 
 .sponsors-section h2 {
-  font-size: 2rem;
   margin-bottom: 2rem;
-  text-align: left;
 }
 
 .sponsors-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  justify-items: center;
 }
 
 .sponsor-tile {
-  background-color: white;
-  border-radius: 10px;
-  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  text-decoration: none;
+  transition: transform 0.2s ease-in-out;
+  width: 100%;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  min-height: 200px; /* Ensure consistent height for all tiles */
 }
 
 .sponsor-tile:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .sponsor-logo {
-  max-width: 140px;
-  height: auto;
+  width: 100%;
+  height: 200px;
   object-fit: contain;
-  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .sponsor-name {
-  color: #2c3e50;
-  font-size: 1rem;
-  margin: 0;
-  font-weight: 500;
-  width: 100%;
-  text-align: center;
-  padding-top: 0.5rem;
-  border-top: 1px solid #eee;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.sponsor-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.social-link {
+  color: #666;
+  transition: color 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link:hover {
+  color: #000;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
 } 

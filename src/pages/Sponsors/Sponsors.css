@@ -1,0 +1,20 @@
+.sponsors-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sponsors-container {
+  text-align: center;
+}
+
+.sponsors-container h1 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.sponsors-container p {
+  margin-bottom: 2rem;
+  color: #666;
+  font-size: 1.1rem;
+} 

@@ -30,6 +30,7 @@ const Header = () => {
       <nav className="nav">
         <Link to="/" className="nav-link">Home</Link>
         <Link to="/schedule" className="nav-link">Schedule</Link>
+        <Link to="/sponsors" className="nav-link">Sponsors</Link>
         <a href="https://www.facebook.com/ButteCRABSRugby" 
            className="nav-link" 
            target="_blank" 
