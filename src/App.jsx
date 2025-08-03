@@ -5,7 +5,6 @@ import Schedule from './pages/Schedule/Schedule';
 import SponsorsPage from './pages/Sponsors/Sponsors';
 import Contact from './pages/Contact/Contact';
 import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
-import teamPhoto from '../assets/team-photo.jpg';
 import './App.css';
 
 function App() {
@@ -29,7 +28,7 @@ function App() {
                     </p>
                     <div className="team-photo-container">
                       <img 
-                        src={teamPhoto} 
+                        src='/assets/team-photo.jpg' 
                         alt="Team Photo @ South HPER field. September 8th, 2022" 
                         title="Team Photo @ South HPER field. September 8th, 2022"
                         className="team-photo"

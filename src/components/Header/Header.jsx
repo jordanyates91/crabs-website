@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import crabsLogo from '../../../assets/crabs_logo.png';
 import './Header.css';
 
 const ExternalLinkIcon = () => (
@@ -24,7 +23,7 @@ const Header = () => {
     <header className="header">
       <div className="logo-container">
         <Link to="/" className="logo-link">
-          <img src={crabsLogo} alt="C.R.A.B.S Rugby Team Logo" className="logo" />
+          <img src="/assets/crabs_logo.png" alt="C.R.A.B.S Rugby Team Logo" className="logo" />
           <span className="team-name">Butte C.R.A.B.S</span>
         </Link>
       </div>
