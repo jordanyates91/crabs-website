@@ -4,14 +4,14 @@ import './UpcomingEvents.css';
 const UpcomingEvents = () => {
   // Get current date and date 2 months from now
   const today = new Date();
-  const twoMonthsFromNow = new Date();
-  twoMonthsFromNow.setMonth(today.getMonth() + 2);
+  const oneMonthsFromNow = new Date();
+  oneMonthsFromNow.setMonth(today.getMonth() + 1);
 
   // Filter events within the next 2 months
   const upcomingEvents = events
     .filter(event => {
       const eventDate = new Date(event.date);
-      return eventDate >= today && eventDate <= twoMonthsFromNow;
+      return eventDate >= today && eventDate <= oneMonthsFromNow;
     })
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 
@@ -33,9 +33,6 @@ const UpcomingEvents = () => {
                     })}
                   </p>
                   <p>
-                    <strong>Time:</strong> {event.time}
-                  </p>
-                  <p>
                     <strong>Type:</strong> {event.type}
                   </p>
                   <p>
@@ -46,7 +43,7 @@ const UpcomingEvents = () => {
             </div>
           ))
         ) : (
-          <p className="no-events">No upcoming events in the next 2 months</p>
+          <p className="no-events">No upcoming events in the next month</p>
         )}
       </div>
     </div>

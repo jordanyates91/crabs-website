@@ -51,12 +51,8 @@ const Schedule = () => {
                     <strong>Date:</strong> {new Date(event.date).toLocaleDateString()}
                   </p>
                   <p>
-                    <strong>Time:</strong> {event.time}
-                  </p>
-                  <p>
                     <strong>Location:</strong> {event.location}
                   </p>
-                  <p>{event.description}</p>
                 </div>
               </div>
             ))}
