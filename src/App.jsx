@@ -5,6 +5,7 @@ import Schedule from './pages/Schedule/Schedule';
 import SponsorsPage from './pages/Sponsors/Sponsors';
 import Contact from './pages/Contact/Contact';
 import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
+import CrabShackOrganization from './pages/CrabShackOrganization/CrabShackOrganization';
 import './App.css';
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/sponsors" element={<SponsorsPage />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/cso" element={<CrabShackOrganization />} />
         </Routes>
         <Footer />
       </div>
