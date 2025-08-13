@@ -15,5 +15,21 @@ export const sponsors = [
     facebook: "https://www.facebook.com/pages/Summit-Beverage/122493127809467",
     instagram: null
   },
+  {
+    id: 3,
+    name: "Pioneer Technical Services",
+    logo: "/assets/pioneer-technical-services.jpg",
+    website: "http://www.pioneertechnical.com/",
+    facebook: "https://www.facebook.com/PioneerTechnical/",
+    instagram: null
+  },
+  {
+    id: 4,
+    name: "Black Dog Creamery",
+    logo: "/assets/black-dog-creamery.jpg",
+    website: null,
+    facebook: "https://www.facebook.com/p/Black-Dog-Creamery-61558158817038/",
+    instagram: "https://www.instagram.com/blackdogcreamery/?hl=en",
+  },
   // Add more sponsors here as needed
 ]; 
