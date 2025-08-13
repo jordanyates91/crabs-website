@@ -48,11 +48,16 @@ const Schedule = () => {
                 </div>
                 <div className="event-details">
                   <p>
-                    <strong>Date:</strong> {new Date(event.date).toLocaleDateString()}
+                    <strong>Date:</strong> {new Date(event.date + 'T00:00:00').toLocaleDateString()}
                   </p>
                   <p>
                     <strong>Location:</strong> {event.location}
                   </p>
+                  {event.address && (
+                    <p>
+                      <strong>Address:</strong> {event.address}
+                    </p>
+                  )}
                 </div>
               </div>
             ))}

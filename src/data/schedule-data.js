@@ -4,7 +4,8 @@ export const events = [
     title: "Round Robin Tournament",
     date: "2025-09-27",
     location: "Butte, MT",
-    type: "Home Tournament"
+    type: "Home Tournament",
+    address: "South HPER Pitch, Mt. Tech Road, Butte, MT 59701"
   },
   {
     id: 2,
@@ -18,21 +19,23 @@ export const events = [
     title: "C.R.A.B.S vs Alumni",
     date: "2025-10-11",
     location: "Butte, MT",
-    type: "Home Game"
+    type: "Home Game",
+    address: "South HPER Pitch, Mt. Tech Road, Butte, MT 59701"
   },
   {
     id: 4,
     title: "C.R.A.B.S vs Billings",
     date: "2025-10-18",
     location: "Butte, MT",
-    type: "Home Game"
+    type: "Home Game",
+    address: "South HPER Pitch, Mt. Tech Road, Butte, MT 59701"
   },
   {
     id: 5,
     title: "Round Robin Tournament",
     date: "2025-10-25",
     location: "Billings, MT",
-    type: "Away Tournament"
+    type: "Away Tournament",
   },
     {
     id: 6,

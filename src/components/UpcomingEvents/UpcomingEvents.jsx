@@ -10,10 +10,10 @@ const UpcomingEvents = () => {
   // Filter events within the next 2 months
   const upcomingEvents = events
     .filter(event => {
-      const eventDate = new Date(event.date);
+      const eventDate = new Date(event.date + 'T00:00:00');
       return eventDate >= today && eventDate <= oneMonthsFromNow;
     })
-    .sort((a, b) => new Date(a.date) - new Date(b.date));
+    .sort((a, b) => new Date(a.date + 'T00:00:00') - new Date(b.date + 'T00:00:00'));
 
   return (
     <div className="upcoming-events">
@@ -26,7 +26,7 @@ const UpcomingEvents = () => {
                 <h3 className="event-title">{event.title}</h3>
                 <div className="event-info">
                   <p>
-                    <strong>Date:</strong> {new Date(event.date).toLocaleDateString('en-US', {
+                    <strong>Date:</strong> {new Date(event.date + 'T00:00:00').toLocaleDateString('en-US', {
                       weekday: 'long',
                       month: 'long',
                       day: 'numeric'
@@ -38,6 +38,11 @@ const UpcomingEvents = () => {
                   <p>
                     <strong>Location:</strong> {event.location}
                   </p>
+                  {event.address && (
+                    <p>
+                      <strong>Address:</strong> {event.address}
+                    </p>
+                  )}
                 </div>
               </div>
             </div>
